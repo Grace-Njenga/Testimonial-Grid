@@ -76,12 +76,12 @@ h6 {
 }
 
 /* font family  */
-.barlow-semi condensed-medium {
+.barlow-semi-medium {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: var(--ff-regular);
     font-style: normal;
 }
-.barlow-semi condensed-bold {
+.barlow-semi-bold {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: var(--ff-bold);
     font-style: normal;
@@ -92,13 +92,15 @@ body {
     display: grid;
     place-content: center;
     margin: var(--grid-gap);
+    color: var(--clr-white);
+    font-size: 0.9rem;
 }
 
 /* image radius */
 img {
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     margin-right: 1rem;
     border: 2px solid --clr-white;
 }
@@ -108,29 +110,52 @@ img {
     display: grid;
     gap: var(--grid-gap);
     grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-rows: repeat(2, 300px);
 }
 .testimonial {
     border-radius: var(--grid-border-radius);
-    /* grid-row: span 3; */
+    padding: 1.5rem;
 }
 .daniel {
-    grid-column: 1/6;
+    grid-column: 1 / 6;
     grid-row: span 1;
-    background-color: var(--clr-gray-blue);
+    background-color: var(--clr-moderate-violet);
+}
+.patrick img {
+    border: 2px solid var(--clr-moderate-violet);
+}
+.daniel img {
+    border-radius: 2px solid var(--clr-light-gray);
 }
 .johnathan {
-    grid-column: 7/10;
+    grid-column: 6 / 9;
     background-color: var(--clr-gray-blue);
 }
 .jeanette {
-    grid-column: 11/-1;
-    /* grid-row: -1; */
+    grid-column: 1 / 3;
+    background-color: var(--clr-white);
+    color: var(--clr-black-blue);
+}
+.kira {
+    grid-column: 9/-1;
+    grid-row: 1 / -1;
+    background-color: var(--clr-white);
+    color: var(--clr-black-blue);
+}
+.patrick {
+    grid-column: 3/9;
+    background-color: var(--clr-black-blue);
 }
 .testimonial_header {
     display: flex;
     align-items: center;
     align-content: center;
 }
+
 .testimonial_bold {
+    font-weight: var(--ff-bold);
+    margin: 1em 0;
+}
+.opague {
+    opacity: 70%;
 }

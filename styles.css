@@ -89,6 +89,9 @@ h6 {
 
 body {
     background-color: var(--clr-light-blue);
+    display: grid;
+    place-content: center;
+    margin: var(--grid-gap);
 }
 
 /* image radius */
@@ -104,7 +107,25 @@ img {
 .container {
     display: grid;
     gap: var(--grid-gap);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+.testimonial {
+    border-radius: var(--grid-border-radius);
+    /* grid-row: span 3; */
+}
+.daniel {
+    grid-column: 1/6;
+    grid-row: span 1;
+    background-color: var(--clr-gray-blue);
+}
+.johnathan {
+    grid-column: 7/10;
+    background-color: var(--clr-gray-blue);
+}
+.jeanette {
+    grid-column: 11/-1;
+    /* grid-row: -1; */
 }
 .testimonial_header {
     display: flex;

@@ -1,0 +1,18 @@
+@media (max-width: 769px) and (min-width: 300px) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, minmax(min-content, auto));
+        gap: 2rem;
+    }
+    .daniel,
+    .johnathan,
+    .patrick,
+    .jeanette,
+    .kira {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+/* .johnathan, .jeanette{
+    grid-row: ;
+} */

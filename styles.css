@@ -109,12 +109,14 @@ img {
 .container {
     display: grid;
     gap: var(--grid-gap);
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 390px);
+    grid-template-columns: repeat(12, minmax(min-content, 1fr));
+    grid-template-rows: repeat(2, 330px);
+    width: 90%;
+    margin: 0 auto;
 }
 .testimonial {
     border-radius: var(--grid-border-radius);
-    padding: 2rem;
+    padding: 1.5rem;
 }
 .daniel {
     grid-column: 1 / 7;

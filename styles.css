@@ -68,7 +68,7 @@ h6 {
     --clr-light-gray: hsl(0, 0%, 81%);
     --clr-light-blue: hsl(210, 46%, 95%);
 
-    --grid-gap: 1rem;
+    --grid-gap: 2rem;
     --grid-border-radius: 0.5em;
 
     --ff-regular: 500;
@@ -110,7 +110,7 @@ img {
     display: grid;
     gap: var(--grid-gap);
     grid-template-columns: repeat(12, minmax(min-content, 1fr));
-    grid-template-rows: repeat(2, 330px);
+    grid-template-rows: repeat(2, minmax(min-content, auto));
     width: 90%;
     margin: 0 auto;
 }
@@ -156,6 +156,7 @@ img {
 .patrick {
     grid-column: 4 / 10;
     background-color: var(--clr-black-blue);
+    /* color: var(--clr-light-gray); */
 }
 .testimonial_header {
     display: flex;

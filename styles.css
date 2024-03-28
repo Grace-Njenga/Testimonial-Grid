@@ -179,3 +179,9 @@ img {
 .opague {
     opacity: 30%;
 }
+
+/* svg styling goes here  */
+/* not much into it today have a headache will do tomorrow */
+body {
+    background-color: var(--clr-gray-blue);
+}

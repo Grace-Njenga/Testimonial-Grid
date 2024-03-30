@@ -52,9 +52,7 @@ Users should be able to:
 ### What I learned
 
 I learnt how to dynamize the card to fit content instead of 1fr which was cool.
-
-like in CSS:
-
+``CSS``
 ``.container{
     display: grid;
     grid-template-columns: repeat(12, minmax(min-content, 1fr));

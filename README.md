@@ -62,12 +62,12 @@ I learnt how to dynamize the card to fit content instead of 1fr which was cool.
 ```
 
 The difference between the above and
-```CSS grid-template-rows: repeat(12, 1fr);``` is that in ```CSS grid-template-rows: repeat(12, 1fr);``` :
+```grid-template-rows: repeat(12, 1fr);``` is that in ```grid-template-rows: repeat(12, 1fr);``` :
 
 -   All rows will have the same height, distributing the available space equally among them.
 -   Useful for grids where you want all rows to have the same height, especially when you have a large number of rows.
 
-While with using ```CSS grid-template-columns: repeat(12, minmax(min-content, 1fr));``` :
+While with using ```grid-template-columns: repeat(12, minmax(min-content, 1fr));``` :
 
 -   This sets up a grid with 12 columns, where each column's width is determined by its content (minimum content size) but can grow up to the height of the tallest item in the row (maximum content size).
 -   Rows will adjust their height based on the content they contain, ensuring that content is not cut off or overflowed.

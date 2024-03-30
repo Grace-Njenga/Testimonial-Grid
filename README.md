@@ -24,16 +24,16 @@ Users should be able to:
 
 -   View the optimal layout for the site depending on their device's screen size
     ![](./design/desktop-preview.jpg)
+    *fig1: Preview of the challenge*
 
 ### Screenshot
 
 ![](./images/mobile_view_final.png)
-
-> _Mobile view_
+*fig2: Mobile view*
 
 ![](./images/desktop_view_final.png)
 
-> _Desktop view_
+*fig3: Desktop view*
 
 ### Links
 

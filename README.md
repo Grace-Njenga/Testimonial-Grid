@@ -29,10 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/mobile_view_final.png)
+  ![](./images/mobile_view_final.png)
 *fig2: Mobile view*
 
-![](./images/desktop_view_final.png)
+  ![](./images/desktop_view_final.png)
 
 *fig3: Desktop view*
 

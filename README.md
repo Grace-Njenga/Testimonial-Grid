@@ -16,8 +16,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 -   [Author](#author)
 -   [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,7 +31,7 @@ Users should be able to:
 
 > _Mobile view_
 
-! [](./images/desktop_view_final.png)
+![](./images/desktop_view_final.png)
 
 > _Desktop view_
 
@@ -55,14 +53,14 @@ Users should be able to:
 
 I learnt how to dynamize the card to fit content instead of 1fr which was cool.
 
-like `css`":
+like in CSS:
 
-````.container{
+``.container{
     display: grid;
     grid-template-columns: repeat(12, minmax(min-content, 1fr));
     grid-template-rows: repeat(2, minmax(min-content, auto));
 
-}```
+}``
 
 The difference between the above and `grid-template-rows: repeat(12, 1fr);` is that in `grid-template-rows: repeat(12, 1fr);` :
 
@@ -92,4 +90,3 @@ I am committed to advancing my proficiency in CSS Grid, particularly in masterin
 ## Acknowledgments
 
 I would give a hat tip to KEVIN POWELL mostyly as he has taught me all about css and im very thankful.
-````

@@ -24,7 +24,8 @@ Users should be able to:
 
 -   View the optimal layout for the site depending on their device's screen size
     ![](./design/desktop-preview.jpg)
-    *fig1: Preview of the challenge*
+
+ <style> opacity: 40%; </style> *fig1: Preview of the challenge*
 
 ### Screenshot
 

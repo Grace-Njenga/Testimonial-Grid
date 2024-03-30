@@ -54,11 +54,11 @@ Users should be able to:
 I learnt how to dynamize the card to fit content instead of 1fr which was cool.
 
 `CSS`
-```.container`````{```
-     ```display: grid;```
-     ```grid-template-columns: repeat(12, minmax(min-content, 1fr));```
-     ```grid-template-rows: repeat(2, minmax(min-content, auto));```
-```}```
+    .container{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(min-content, 1fr));
+    grid-template-rows: repeat(2, minmax(min-content, auto));
+    }
 
 The difference between the above and `grid-template-rows: repeat(12, 1fr);` is that in `grid-template-rows: repeat(12, 1fr);` :
 

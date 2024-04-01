@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: (https://www.frontendmentor.io/solutions/testimonial-grid-8-ngKJJVU7)
 -   Live Site URL: (https://frontend-mentor-testimonial-grid.netlify.app/)
 
 ## My process
